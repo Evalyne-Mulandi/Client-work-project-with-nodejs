@@ -5,7 +5,7 @@
         <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
     </svg>
 </div>
-   <footer class="text-center bg-gray-900 text-white">
+   <footer class="text-center bg-slate-900 text-white">
   <div class="container px-6 pt-6">
     <div class="flex justify-center mb-6  relative z-10">
       <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
@@ -165,8 +165,8 @@
      
 
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-white" href="https://tailwind-elements.com/">Tailwind Elements</a>
+    © 2022 Copyright:
+    <a class="text-white" href="https://tailwind-elements.com/">E-Technologies</a>
   </div>
  
 </footer>
@@ -200,6 +200,6 @@ export default {
 }
 
 .custom-shape-divider-top-1665683459 .shape-fill {
-    fill: rgb(9, 9, 56);
+    fill: rgb(7, 6, 71);
 }
 </style>

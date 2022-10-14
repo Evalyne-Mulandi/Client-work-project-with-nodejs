@@ -1,9 +1,9 @@
 <template>
-  <main class="   bg-teal-500 h-full">
+  <main class="  bg-gradient-to-r from-cyan-200 via-teal-500 to-teal-500  h-full">
     <div class=" pt-20  text-3xl    text-black font-extrabold">Let's  learn & build something great together!!
  <div class=" p-24">
    <h1></h1>
-     <button class="  px-7 py-3  bg-black rounded-full text-xl text-white">Hello beginner</button>
+     <button class="  px-7 py-3 bg-gradient-to-r from-black via-slate-900 to-black rounded-full text-xl text-white"><router-link to="/terms">Hello beginner</router-link></button>
  </div>
  
  
