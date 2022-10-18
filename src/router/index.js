@@ -4,6 +4,7 @@ import services from '@/views/services.vue'
 import login from '@/views/login.vue'
 import contact from '@/views/contact.vue'
 import terms from '@/views/terms.vue'
+import write from '@/views/write.vue'
 import signup from '@/views/signup.vue'
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     name: 'terms',
     component:  terms
   },
+  {
+  path: '/write',
+  name: 'write',
+  component:  write
+},
   {
     path: '/about',
     name: 'about',

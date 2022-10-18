@@ -1,5 +1,5 @@
 <template>
-  <main class="  p-24 min-h-screen bg-gradient-to-r from-cyan-200 via-teal-500 to-teal-900  ">
+  <main class="  p-24 min-h-screen bg-gradient-to-r from-cyan-200 via-teal-500 to-teal-800  ">
     <div class=" m-3   max-w-md justify-center items-center  mx-auto rounded-lg  ">
       
     <Form  @submit="onSubmit" :validation-schema="schema"  class=" rounded-lg  border border-white flex-col gap-y-2 bg-transparent flex justify-center items-center  py-4 max-auto">
@@ -15,7 +15,7 @@
        <div class="">
         <input type="checkbox" class=" bg-indigo-700   m-1"><span>Remember me</span>
        </div>
-       <div class=""> Don't have an account?<span><router-link to="/signup" class=" underline text-indigo-900">Signup</router-link></span></div>
+       <div class=""> Don't have an account?<span><router-link to="/signup" class=" underline text-white">Signup</router-link></span></div>
 
        
     </Form>

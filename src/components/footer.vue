@@ -200,6 +200,6 @@ export default {
 }
 
 .custom-shape-divider-top-1665683459 .shape-fill {
-    fill: rgb(7, 6, 71);
+    fill: rgb(10, 167, 146);
 }
 </style>

@@ -2,14 +2,14 @@
   <main class="">
  
     <div class="   bg-gradient-to-r from-cyan-500 via-transparent to-cyan-500">
-      <img src="@/assets/bg.jpg" alt="" class=" min-h-screen">
+      <img src="@/assets/bg4.png" alt="" class="  w-full min-h-screen">
     </div>
-    <div  v-show="toggle"  class=" flex justify-center items-center mx-auto  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 max-w-3xl md:inset-0 h-modal ">
+    <div  v-show="toggle"  class="  mt-20 flex justify-center items-center mx-auto  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 max-w-3xl md:inset-0 h-modal ">
         <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                 <!-- Modal header -->
-                <div class="flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
+                <div class="  flex justify-between items-start p-4 rounded-t border-b dark:border-gray-600">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                         Terms of Service
                     </h3>
@@ -29,7 +29,7 @@
                 </div>
                 <!-- Modal footer -->
                 <div class="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
-                    <button  @click="redirectMode"  type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I accept</button>
+                    <button  @click="redirectMode"  type="button" class="text-white bg-teal-500 hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I accept</button>
                     <button  @click="redirectBack" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Decline</button>
                 </div>
             </div>
