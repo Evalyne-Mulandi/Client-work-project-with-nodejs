@@ -2,7 +2,7 @@
   <main class="">
  
     <div class="   bg-gradient-to-r from-cyan-500 via-transparent to-cyan-500">
-      <img src="@/assets/bg4.png" alt="" class="  w-full min-h-screen">
+      <img src="@/assets/bg.jpg" alt="" class="  w-full min-h-screen">
     </div>
     <div  v-show="toggle"  class="  mt-20 flex justify-center items-center mx-auto  overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 max-w-3xl md:inset-0 h-modal ">
         <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">

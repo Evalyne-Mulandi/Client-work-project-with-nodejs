@@ -5,6 +5,7 @@ import login from '@/views/login.vue'
 import contact from '@/views/contact.vue'
 import terms from '@/views/terms.vue'
 import write from '@/views/write.vue'
+import web from '@/views/web.vue'
 import signup from '@/views/signup.vue'
 const routes = [
   {
@@ -41,6 +42,11 @@ const routes = [
   path: '/write',
   name: 'write',
   component:  write
+},
+{
+  path: '/web',
+  name: 'web',
+  component:  web
 },
   {
     path: '/about',

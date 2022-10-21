@@ -62,7 +62,7 @@
 export default {
 data(){
   return{
-    toggleMenu:true
+    toggleMenu:false
   }
 }
 }
