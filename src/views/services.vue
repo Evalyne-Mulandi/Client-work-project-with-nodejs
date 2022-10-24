@@ -1,8 +1,20 @@
 <template>
+    
     <main class=" p-20  min-h-screen bg-gradient-to-r from-cyan-200 via-teal-500 to-teal-800">
+        
+        <div class="  justify-end  items-end flex m-4">
+            <input
+          class="focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bg-white dark:text-white dark:bg-slate-600 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+          type="search"
+          name="search"
+          v-model="input"
+          placeholder="Search Course"
+        />
+     
+  </div> 
         <h1 class=" flex justify-center items-center text-black  text-2xl p-2 font-mono font-extrabold underline">COURSES</h1>
         <div class=" justify-center  gap-y-2 items-center flex flex-row flex-wrap p-2  "> 
-    <div class="  transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105  flex m-1  border  flex-col justify-center items-center max-w-sm" v-for="course in courses" :key="course"> 
+    <div class="  transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105  flex m-1  border  flex-col justify-center items-center max-w-sm" v-for="course in searchedCourse" :key="course"> 
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="48" height="48"
 viewBox="0 0 48 48"
@@ -12,18 +24,25 @@ style=" fill:skyblue"><path fill="black" d="M43.982,23.635c0.069-4.261-0.891-9.3
 <button class=" m-3 px-4 py-1 bg-gradient-to-r from-black via-teal-900 to-black rounded-full  text-white"> <router-link to="/web">learn more</router-link></button>
 
     </div>
-    
-     
+        
 </div>
+ <terms2/>
+
   </main>
   
 </template>
 
 <script>
-
+  
+import Terms2 from '../components/terms2.vue'
 export default {
+    components:{
+    
+    Terms2
+},
 data(){
  return{
+    input:'',
     courses:[ 
         {
             id: 1,
@@ -50,10 +69,15 @@ data(){
 ]
  }
 
-}
-}
+},
+
+computed:{
+    searchedCourse(){
+       return this.courses.filter((course)=>{
+        return course.title.toLowerCase().indexOf(this.input.toLowerCase())!= -1;
+       })
+    }
+}}
+
 </script>
 
-<style>
-
-</style>

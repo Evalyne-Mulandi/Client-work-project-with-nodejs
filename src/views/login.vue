@@ -52,7 +52,8 @@ export default{
       this.passErrorActivate=true
     }
     else{
-      let url="http://localhost:7000/login/"
+      /* let url="http://localhost:7000/login/" */
+      let url="api/v1/login/"
        let data=JSON.stringify({
        
                     email: this.email,

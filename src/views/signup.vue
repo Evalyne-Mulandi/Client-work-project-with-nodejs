@@ -60,7 +60,8 @@ export default{
        console.log(found);
     } */
     else{
-      let url="http://localhost:7000/signup/"
+      /* let url="http://localhost:7000/signup/" */
+      let url="api/v1/signup/"
        let data=JSON.stringify({
         firstName: this. firstName,
                     lastName: this.lastName,
